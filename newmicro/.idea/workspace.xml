@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5629f4d-2471-4ec2-855a-663d8c45c48f" name="Default Changelist" comment="" />
+    <list default="true" id="01483474-8dfc-45ce-b953-e39766fac4c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/proto/cap/imooc.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../showproto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../showproto/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +20,7 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
-  <component name="ProjectId" id="207Cgxm5nlgqxWGUxP5SCAu6Dt5" />
+  <component name="ProjectId" id="20A1423dmrsspEiym5TSjDmUoKK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,5 +38,11 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1137" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1635472516607">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1137" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1635472516607" />
   </component>
 </project>
