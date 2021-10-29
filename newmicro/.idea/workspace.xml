@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01483474-8dfc-45ce-b953-e39766fac4c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/proto/cap/imooc.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../showproto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../showproto/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" path="C:\Program Files\Go" />
   <component name="Git.Settings">
@@ -27,10 +36,37 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build newmicro (1)">
+    <configuration name="go build newmicro (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="newmicro" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/client.go" />
+      <package value="newmicro" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build newmicro" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="newmicro" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/server.go" />
+      <package value="newmicro" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build newmicro (1)" />
+        <item itemvalue="Go Build.go build newmicro" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -40,6 +76,22 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state width="861" height="397" key="GridCell.Tab.0.bottom" timestamp="1635487928321">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="861" height="397" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1635487928321" />
+    <state width="861" height="397" key="GridCell.Tab.0.center" timestamp="1635487928320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="861" height="397" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1635487928320" />
+    <state width="861" height="397" key="GridCell.Tab.0.left" timestamp="1635487928320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="861" height="397" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1635487928320" />
+    <state width="861" height="397" key="GridCell.Tab.0.right" timestamp="1635487928320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="861" height="397" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1635487928320" />
     <state x="1137" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1635472516607">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
