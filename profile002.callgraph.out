@@ -1,0 +1,2414 @@
+positions: instr line
+events: alloc_space(kB)
+
+ob=
+fl=(1) D:\projects\GlobalGo\pkg\mod\git.woa.com\cloud_nosql\qlog@v0.0.0-20211028081000-3fe07d3a8f98\captain\logrus\writer\sync_file_writer.go
+fn=(1) git.woa.com/cloud_nosql/qlog/captain/logrus/writer.(*AsyncWrapper).bufferPump
+0xd3747c 39 65091
+
+ob=
+fl=(2) C:\Program Files\Go\src\runtime\map.go
+fn=(2) reflect.mapassign
+0x5c7545 1328 63024
+
+ob=
+fl=(3) C:\Program Files\Go\src\fmt\print.go
+fn=(3) fmt.Sprintf
++955191 220 55851
+
+ob=
+fl=(1)
+fn=(4) git.woa.com/cloud_nosql/qlog/captain/logrus/writer.(*AsyncWrapper).Write
+0xd37a90 60 53303
+
+ob=
+fl=(4) C:\Program Files\Go\src\encoding\json\stream.go
+fn=(5) encoding/json.(*Decoder).refill
+0xa33dcd 159 51779
+
+ob=
+fl=(3)
+fn=(6) fmt.Sprint
+0x6b0ac4 250 48170
+
+ob=
+fl=(5) D:\projects\GlobalGo\pkg\mod\github.com\sirupsen\logrus@v1.8.1\entry.go
+fn=(7) github.com/sirupsen/logrus.(*Entry).WithFields
+0xd20f84 147 25094
+
+ob=
+fl=(6) E:\projects\api-server\httpserver\handler_interface_v3.go
+fn=(8) api-server/httpserver.(*HandlerInterfaceV3).ProcessRequest
+0xe8a29c 287 24081
+
+ob=
+fl=(7) C:\Program Files\Go\src\io\io.go
+fn=(9) io.ReadAll
+0x63a5f1 631 23062
+
+ob=
+fl=(6)
+fn=(8)
+0xe8a933 308 23056
+
+ob=
+fl=(8) C:\Program Files\Go\src\net\textproto\reader.go
+fn=(10) net/textproto.(*Reader).ReadMIMEHeader
+0x87585e 493 22542
+
+ob=
+fl=(9) D:\projects\GlobalGo\pkg\mod\git.woa.com\cloud_nosql\qlog@v0.0.0-20211028081000-3fe07d3a8f98\captain\logrus\qlog.go
+fn=(11) git.woa.com/cloud_nosql/qlog/captain/logrus.getCaller
+0xd3a09e 342 22020
+
+ob=
+fl=(9)
+fn=(12) git.woa.com/cloud_nosql/qlog/captain/logrus.getLogFields
+-1134 324 19973
+
+ob=
+fl=(6)
+fn=(8)
+0xe87b55 166 18445
+
+ob=
+fl=(10) C:\Program Files\Go\src\encoding\json\decode.go
+fn=(13) encoding/json.(*decodeState).objectInterface
+0xa20f2e 1104 17924
+
+ob=
+fl=(10)
+fn=(14) encoding/json.(*decodeState).arrayInterface
+-746 1055 17922
+
+ob=
+fl=(5)
+fn=(15) github.com/sirupsen/logrus.(*Entry).Dup
+0xd1ff04 84 14852
+
+ob=
+fl=(11) D:\projects\GlobalGo\pkg\mod\git.woa.com\cloud_nosql\qlog@v0.0.0-20211028081000-3fe07d3a8f98\captain\logrus\formatter\text_formatter.go
+fn=(16) git.woa.com/cloud_nosql/qlog/captain/logrus/formatter.(*TextFormatter).Format
++62721 45 12802
+
+ob=
+fl=(10)
+fn=(17) encoding/json.(*decodeState).object
+0xa1aca8 783 12800
+
+ob=
+fl=(5)
+fn=(7)
+0xd2108e 150 11265
+
+ob=
+fl=(4)
+fn=(18) encoding/json.NewDecoder
+0xa33164 32 10755
+
+ob=
+fl=(7)
+fn=(9)
+0x63a2f9 627 10245
+
+ob=
+fl=(12) C:\Program Files\Go\src\net\http\header.go
+fn=(19) net/http.Header.Clone
+0x915b73 104 10243
+
+ob=
+fl=(13) E:\projects\api-server\component\collector\http_metrics.go
+fn=(20) api-server/component/collector.HttpMetricsReport
+0xd3be64 127 10242
+
+ob=
+fl=(14) C:\Program Files\Go\src\compress\flate\deflate.go
+fn=(21) compress/flate.NewWriter
+0x88bb6b 670 9025
+
+ob=
+fl=(13)
+fn=(20)
+0xd3c5ec 151 8706
+
+ob=
+fl=(15) C:\Program Files\Go\src\reflect\value.go
+fn=(22) reflect.New
+0x66b1d2 2401 8704
+
+ob=
+fl=(10)
+fn=(23) encoding/json.(*decodeState).literalStore
+0xa1d815 958 7680
+
+ob=
+fl=(13)
+fn=(20)
+0xd3bfdc 133 7169
+
+ob=
+fl=(6)
+fn=(8)
+0xe879d9 129 7169
+
+ob=
+fl=(11)
+fn=(24) git.woa.com/cloud_nosql/qlog/captain/logrus/formatter.(*TextFormatter).appendValue
+0xd2f815 86 7168
+
+ob=
+fl=(13)
+fn=(20)
++51925 143 6657
++386 147 6657
+
+ob=
+fl=(16) C:\Program Files\Go\src\net\http\request.go
+fn=(25) net/http.readRequest
+0x91daa5 1023 6145
+
+ob=
+fl=(10)
+fn=(26) encoding/json.(*decodeState).convertNumber
+0xa1c744 834 5632
+
+ob=
+fl=(17) C:\Program Files\Go\src\net\http\server.go
+fn=(27) net/http.(*conn).readRequest
+-997159 1017 5121
+
+ob=
+fl=(6)
+fn=(8)
+0xe8a9f0 308 5120
+
+ob=
+fl=(17)
+fn=(27)
+0x928fc9 1024 4608
+
+ob=
+fl=(5)
+fn=(7)
+0xd20ad9 126 4608
+
+ob=
+fl=(8)
+fn=(10)
+0x875ebb 529 4608
+
+ob=
+fl=(18) C:\Program Files\Go\src\encoding\json\scanner.go
+fn=(28) encoding/json.(*scanner).pushParseState
+0xa3057d 177 4608
+
+ob=
+fl=(14)
+fn=(29) compress/flate.(*compressor).init
+0x88b37c 596 4554
+
+ob=
+fl=(19) C:\Program Files\Go\src\net\url\url.go
+fn=(30) net/url.parse
+-832647 519 4096
+
+ob=
+fl=(9)
+fn=(12)
+0xd39a51 314 4096
+
+ob=
+fl=(15)
+fn=(31) reflect.cvtBytesString
+0x66de6a 2702 4096
+
+ob=
+fl=(10)
+fn=(32) encoding/json.Unmarshal
+0xa15ee4 100 3584
+
+ob=
+fl=(8)
+fn=(10)
+0x875812 490 3584
+
+ob=
+fl=(12)
+fn=(19)
++655770 100 3584
+
+ob=
+fl=(5)
+fn=(15)
+0xd1ff64 86 3072
+
+ob=
+fl=(9)
+fn=(11)
++106656 340 3072
+
+ob=
+fl=(20) C:\Program Files\Go\src\compress\flate\deflatefast.go
+fn=(33) compress/flate.newDeflateFast
+0x88c852 64 2723
+
+ob=
+fl=(10)
+fn=(13)
+0xa20ce6 1073 2560
+
+ob=
+fl=(13)
+fn=(20)
+0xd3c292 143 2560
+
+ob=
+fl=(21) C:\Program Files\Go\src\net\net.go
+fn=(34) net.(*conn).Read
+0x79f32a 185 2048
+
+ob=
+fl=(22) D:\projects\GlobalGo\pkg\mod\github.com\sirupsen\logrus@v1.8.1\logger.go
+fn=(35) github.com/sirupsen/logrus.(*Logger).releaseEntry
+0xd24ecc 104 2048
+
+ob=
+fl=(13)
+fn=(20)
++94014 127 2048
+
+ob=
+fl=(8)
+fn=(36) net/textproto.(*Reader).ReadLine
+0x87223a 39 2048
+
+ob=
+fl=(10)
+fn=(37) encoding/json.unquote
+0xa21824 1183 2048
+
+ob=
+fl=(23) C:\Program Files\Go\src\reflect\type.go
+fn=(38) reflect.(*structType).Field
+0x655bf1 1209 2048
+
+ob=
+fl=(10)
+fn=(23)
+0xa1d83d 958 2048
+
+ob=
+fl=(9)
+fn=(12)
+0xd39be7 324 2048
+
+ob=
+fl=(20)
+fn=(33)
+0x88c87e 64 1749
+
+ob=
+fl=(24) C:\Program Files\Go\src\sync\pool.go
+fn=(39) sync.(*Pool).pinSlow
+0x5e1bbc 227 1536
+
+ob=
+fl=(25) D:\projects\GlobalGo\pkg\mod\github.com\google\uuid@v1.1.2\uuid.go
+fn=(40) github.com/google/uuid.UUID.String
+0xd12ac8 167 1536
+
+ob=
+fl=(5)
+fn=(15)
++54108 82 1536
+
+ob=
+fl=(13)
+fn=(20)
++115040 133 1536
+
+ob=
+fl=(10)
+fn=(41) encoding/json.(*decodeState).array
+0xa1989e 518 1536
+
+ob=
+fl=(10)
+fn=(42) encoding/json.(*decodeState).literalInterface
++31102 1142 1536
+
+ob=
+fl=(26) D:\projects\GlobalGo\pkg\mod\git.woa.com\cloud_nosql\qlog@v0.0.0-20211028081000-3fe07d3a8f98\captain\captain_tags.go
+fn=(43) git.woa.com/cloud_nosql/qlog/captain.getValue
+0xd1ed10 15 1536
+
+ob=
+fl=(11)
+fn=(16)
++65769 56 1536
+
+ob=
+fl=(14)
+fn=(29)
+0x88b274 592 1089
+
+ob=
+fl=(27) C:\Program Files\Go\src\bufio\bufio.go
+fn=(44) bufio.NewWriterSize
+-124831 578 1026
+
+ob=
+fl=(28) C:\Program Files\Go\src\runtime\pprof\proto.go
+fn=(45) runtime/pprof.allFrames
+0xe2aa4e 216 1024
+
+ob=
+fl=(29) C:\Program Files\Go\src\context\context.go
+fn=(46) context.WithCancel
+0x61cd6c 236 1024
+
+ob=
+fl=(6)
+fn=(8)
+0xe87be6 168 1024
+
+ob=
+fl=(30) C:\Program Files\Go\src\strings\builder.go
+fn=(47) strings.(*Builder).grow
+0x6b91c5 68 1024
+
+ob=
+fl=(30)
+fn=(48) strings.(*Builder).WriteString
++2209 123 1024
+
+ob=
+fl=(8)
+fn=(49) net/textproto.canonicalMIMEHeaderKey
+0x876eef 665 1024
+
+ob=
+fl=(17)
+fn=(50) net/http.(*conn).serve
++761002 1920 1024
+
+ob=
+fl=(31) D:\projects\GlobalGo\pkg\mod\github.com\google\uuid@v1.1.2\version4.go
+fn=(51) github.com/google/uuid.NewRandomFromReader
+0xd1381b 35 1024
+
+ob=
+fl=(9)
+fn=(12)
++157103 327 1024
+
+ob=
+fl=(32) D:\projects\GlobalGo\pkg\mod\git.woa.com\cloud_nosql\cloudbase\tardigrade-common@v0.0.2\util\maputil\map_util.go
+fn=(52) git.woa.com/cloud_nosql/cloudbase/tardigrade-common/util/maputil.upperFirstString
+0xe6803e 29 1024
+
+ob=
+fl=(6)
+fn=(8)
++139910 287 1024
+
+ob=
+fl=(14)
+fn=(53) compress/flate.(*compressor).initDeflate
+0x888fc9 372 544
+
+ob=
+fl=(33) C:\Program Files\Go\src\compress\flate\dict_decoder.go
+fn=(54) compress/flate.(*dictDecoder).init
++20347 43 528
+
+ob=
+fl=(34) C:\Program Files\Go\src\compress\flate\inflate.go
+fn=(55) compress/flate.NewReader
++45443 799 514
+
+ob=
+fl=(28)
+fn=(56) runtime/pprof.(*profileBuilder).stringIndex
+0xe2a047 139 512
+
+ob=
+fl=(35) D:\projects\GlobalGo\pkg\mod\gopkg.in\yaml.v2@v2.4.0\apic.go
+fn=(57) gopkg.in/yaml%2ev2.yaml_parser_initialize
+-969757 29 512
+
+ob=
+fl=(36) C:\Program Files\Go\src\bytes\buffer.go
+fn=(58) bytes.makeSlice
+0x645dc4 229 512
+
+ob=
+fl=(37) D:\projects\GlobalGo\pkg\mod\google.golang.org\protobuf@v1.27.1\reflect\protoregistry\registry.go
+fn=(59) google.golang.org/protobuf/reflect/protoregistry.(*Files).RegisterFile
+0x9c683b 118 512
+
+ob=
+fl=(38) C:\Program Files\Go\src\syscall\syscall_windows.go
+fn=(60) syscall.UTF16FromString
+0x5eb61c 46 512
+
+ob=
+fl=(12)
+fn=(19)
+0x915a11 101 512
+
+ob=
+fl=(17)
+fn=(27)
++79251 1022 512
+
+ob=
+fl=(13)
+fn=(20)
+0xd3c414 147 512
++384 151 512
+
+ob=
+fl=(39) C:\Program Files\Go\src\strings\reader.go
+fn=(61) strings.NewReader
+0x6baa64 160 512
+
+ob=
+fl=(7)
+fn=(62) io.LimitReader
+-529632 455 512
+
+ob=
+fl=(10)
+fn=(23)
+0xa1f184 971 512
+
+ob=
+fl=(40) D:\projects\GlobalGo\pkg\mod\github.com\sirupsen\logrus@v1.8.1\logrus.go
+fn=(63) github.com/sirupsen/logrus.Level.MarshalText
+0xd282dc 66 512
+
+ob=
+fl=(11)
+fn=(16)
++28410 58 512
+
+ob=
+fl=(9)
+fn=(12)
++43871 326 512
++314 328 512
+
+ob=
+fl=(32)
+fn=(64) git.woa.com/cloud_nosql/cloudbase/tardigrade-common/util/maputil.parseSingleLevelField
+0xe69b44 139 512
+
+ob=
+fl=(6)
+fn=(8)
++120788 118 512
++601 119 512
++11412 287 512
+
+ob=
+fl=(41) C:\Program Files\Go\src\runtime\proc.go
+fn=(65) runtime.main
+0x596164 208 0
+cfl=(41)
+cfn=(66) runtime.doInit
+calls=0 0x5a49c4 6292
+* * 1040
+
+ob=
+fl=(41)
+fn=(66)
++59488 6292 0
+cfl=(41)
+cfn=(66)
+calls=0 +59634 6315
+* * 1040
++146 6315 0
+cfl=(42) D:\projects\GlobalGo\pkg\mod\github.com\prometheus\client_model@v0.2.0\go\metrics.pb.go
+cfn=(67) github.com/prometheus/client_model/go.init.1
+calls=0 0xaf5864 677
+* * 528
+cfl=(43) D:\projects\GlobalGo\pkg\mod\google.golang.org\protobuf@v1.27.1\types\descriptorpb\descriptor.pb.go
+cfn=(68) google.golang.org/protobuf/types/descriptorpb.init.0
+calls=0 0xae09c6 3589
+* * 512
+
+ob=
+fl=(24)
+fn=(69) sync.(*Pool).Get
++248118 128 0
+cfl=(24)
+cfn=(70) sync.(*Pool).pin
+calls=0 +249710 206
+* * 1536
+
+ob=
+fl=(24)
+fn=(70)
++1592 206 0
+cfl=(24)
+cfn=(39)
+calls=0 +2096 227
+* * 1536
+
+ob=
+fl=(44) C:\Program Files\Go\src\syscall\exec_windows.go
+fn=(71) syscall.FullPath
++37110 150 0
+cfl=(38)
+cfn=(72) syscall.UTF16PtrFromString
+calls=0 +40928 96
+* * 512
+
+ob=
+fl=(38)
+fn=(72)
++3818 96 0
+cfl=(38)
+cfn=(60)
+calls=0 +2914 46
+* * 512
+
+ob=
+fl=(7)
+fn=(73) io.CopyN
++315397 358 0
+cfl=(7)
+cfn=(62)
+calls=0 +318432 455
+* * 512
+
+ob=
+fl=(36)
+fn=(74) bytes.(*Buffer).grow
++51519 142 0
+cfl=(36)
+cfn=(58)
+calls=0 +54299 229
+* * 512
+
+ob=
+fl=(36)
+fn=(75) bytes.(*Buffer).WriteString
++1758 184 0
+cfl=(36)
+cfn=(74)
+calls=0 * 142
+* * 512
+
+ob=
+fl=(23)
+fn=(76) reflect.(*rtype).Field
++56318 923 0
+cfl=(23)
+cfn=(38)
+calls=0 +66091 1209
+* * 2048
+
+ob=
+fl=(15)
+fn=(77) reflect.Value.SetMapIndex
++84470 1710 0
+cfl=(2)
+cfn=(2)
+calls=0 -573567 1328
+* * 63024
+
+ob=
+fl=(15)
+fn=(78) reflect.Value.Convert
++15156 2465 0
+cfl=(15)
+cfn=(31)
+calls=0 +24310 2702
+* * 8192
+cfl=(15)
+cfn=(31)
+calls=0 +24240 2702
+* * 4096
+
+ob=
+fl=(15)
+fn=(79) reflect.makeString
++4526 2611 0
+cfl=(15)
+cfn=(22)
+calls=0 -2332 2401
+* * 8192
+
+ob=
+fl=(15)
+fn=(31)
++4628 2702 0
+cfl=(15)
+cfn=(79)
+calls=0 * 2611
+* * 8192
+
+ob=
+fl=(3)
+fn=(80) fmt.newPrinter
++270612 137 0
+cfl=(24)
+cfn=(69)
+calls=0 -576292 128
+* * 512
+
+ob=
+fl=(3)
+fn=(6)
++2707 248 0
+cfl=(3)
+cfn=(80)
+calls=0 * 137
+* * 512
++48 249 0
+cfl=(3)
+cfn=(81) fmt.(*pp).doPrint
+calls=0 +32493 1157
+* * 1536
+
+ob=
+fl=(3)
+fn=(82) fmt.(*pp).handleMethods
++12562 626 0
+cfl=(25)
+cfn=(40)
+calls=0 0xd12ac8 167
+* * 1536
+
+ob=
+fl=(3)
+fn=(83) fmt.(*pp).printArg
++1073 709 0
+cfl=(3)
+cfn=(82)
+calls=0 * 626
+* * 1536
+
+ob=
+fl=(3)
+fn=(81)
++18810 1157 0
+cfl=(3)
+cfn=(83)
+calls=0 * 709
+* * 1536
+
+ob=
+fl=(30)
+fn=(84) strings.(*Builder).Grow
++2630 82 0
+cfl=(30)
+cfn=(47)
+calls=0 +2177 68
+* * 1024
+
+ob=
+fl=(45) C:\Program Files\Go\src\strings\strings.go
+fn=(85) strings.ToLower
++42207 596 0
+cfl=(30)
+cfn=(84)
+calls=0 * 82
+* * 1024
+
+ob=
+fl=(19)
+fn=(86) net/url.ParseRequestURI
+0x7bfbd2 497 0
+cfl=(19)
+cfn=(30)
+calls=0 0x7bfef5 519
+* * 4096
+
+ob=
+fl=(19)
+fn=(87) net/url.(*URL).String
++13315 847 0
+cfl=(30)
+cfn=(48)
+calls=0 0x6b9a66 123
+* * 1024
+
+ob=
+fl=(27)
+fn=(88) bufio.(*Writer).Flush
++696054 607 0
+cfl=(17)
+cfn=(89) net/http.(*chunkWriter).Write
+calls=0 0x924d46 370
+* * 1024
+
+ob=
+fl=(8)
+fn=(10)
++36555 515 0
+cfl=(8)
+cfn=(49)
+calls=0 +40996 665
+* * 1024
+
+ob=
+fl=(46) C:\Program Files\Go\src\path\filepath\path.go
+fn=(90) path/filepath.Abs
++61365 244 0
+cfl=(47) C:\Program Files\Go\src\path\filepath\path_windows.go
+cfn=(91) path/filepath.abs
+calls=0 +67586 142
+* * 512
+
+ob=
+fl=(47)
+fn=(91)
++6221 142 0
+cfl=(44)
+cfn=(71)
+calls=0 0x5eaaba 150
+* * 512
+
+ob=
+fl=(14)
+fn=(29)
++19863 595 0
+cfl=(20)
+cfn=(33)
+calls=0 +25274 64
+* * 2723
+cfl=(20)
+cfn=(33)
+calls=0 +25318 64
+* * 1749
++389 602 0
+cfl=(14)
+cfn=(53)
+calls=0 -9062 372
+* * 544
+
+ob=
+fl=(14)
+fn=(21)
++1808 671 0
+cfl=(14)
+cfn=(29)
+calls=0 -312 596
+* * 4554
+cfl=(14)
+cfn=(29)
+calls=0 -389 595
+* * 4472
+cfl=(14)
+cfn=(29)
+calls=0 -576 592
+* * 1089
+cfl=(14)
+cfn=(29)
+calls=0 * 602
+* * 544
+
+ob=
+fl=(34)
+fn=(55)
++54860 804 0
+cfl=(33)
+cfn=(54)
+calls=0 +9088 43
+* * 528
+
+ob=
+fl=(48) C:\Program Files\Go\src\compress\gzip\gunzip.go
+fn=(92) compress/gzip.NewReader
++11967 94 0
+cfl=(48)
+cfn=(93) compress/gzip.(*Reader).Reset
+calls=0 +12606 113
+* * 1042
+
+ob=
+fl=(48)
+fn=(93)
++639 113 0
+cfl=(48)
+cfn=(94) compress/gzip.(*Reader).readHeader
+calls=0 +5958 238
+* * 1042
+
+ob=
+fl=(48)
+fn=(94)
++5319 238 0
+cfl=(34)
+cfn=(55)
+calls=0 -12606 804
+* * 528
+cfl=(34)
+cfn=(55)
+calls=0 -12935 799
+* * 514
+
+ob=
+fl=(49) C:\Program Files\Go\src\compress\gzip\gzip.go
+fn=(95) compress/gzip.(*Writer).Write
++8176 191 0
+cfl=(14)
+cfn=(21)
+calls=0 -72785 671
+* * 10660
+cfl=(14)
+cfn=(21)
+calls=0 -72874 670
+* * 9025
+
+ob=
+fl=(50) C:\Program Files\Go\src\io\ioutil\ioutil.go
+fn=(96) io/ioutil.ReadAll
++1961 27 0
+cfl=(7)
+cfn=(9)
+calls=0 0x63a5f1 631
+* * 23062
+cfl=(7)
+cfn=(9)
+calls=0 0x63a2f9 627
+* * 10245
+
+ob=
+fl=(12)
+fn=(97) net/http.Header.sortedKeyValues
++483813 164 0
+cfl=(24)
+cfn=(69)
+calls=0 0x5e138c 128
+* * 512
+
+ob=
+fl=(12)
+fn=(98) net/http.Header.WriteSubset
++1265 183 0
+cfl=(12)
+cfn=(99) net/http.Header.writeSubset
+calls=0 +1617 191
+* * 512
+
+ob=
+fl=(12)
+fn=(99)
++352 191 0
+cfl=(12)
+cfn=(97)
+calls=0 -1265 164
+* * 512
+
+ob=
+fl=(16)
+fn=(100) net/http.newTextprotoReader
++28896 992 0
+cfl=(24)
+cfn=(69)
+calls=0 0x5e138c 128
+* * 512
+
+ob=
+fl=(16)
+fn=(25)
++452 1022 0
+cfl=(16)
+cfn=(100)
+calls=0 * 992
+* * 512
++92 1027 0
+cfl=(8)
+cfn=(36)
+calls=0 -702542 39
+* * 2048
++1415 1064 0
+cfl=(19)
+cfn=(86)
+calls=0 0x7bfbd2 497
+* * 4096
++261 1074 0
+cfl=(8)
+cfn=(10)
+calls=0 -690189 493
+* * 22542
+cfl=(8)
+cfn=(10)
+calls=0 -688560 529
+* * 4608
+cfl=(8)
+cfn=(10)
+calls=0 -690265 490
+* * 3584
+cfl=(8)
+cfn=(10)
+calls=0 -688853 515
+* * 1024
+
+ob=
+fl=(17)
+fn=(89)
++27606 370 0
+cfl=(17)
+cfn=(101) net/http.(*chunkWriter).writeHeader
+calls=0 +57310 1465
+* * 512
+cfl=(17)
+cfn=(101)
+calls=0 +54996 1351
+* * 512
+
+ob=
+fl=(17)
+fn=(102) net/http.(*connReader).backgroundRead
++5814 672 0
+cfl=(21)
+cfn=(34)
+calls=0 0x79f32a 185
+* * 2048
+
+ob=
+fl=(17)
+fn=(103) net/http.newBufioWriterSize
++3274 842 0
+cfl=(27)
+cfn=(44)
+calls=0 -760103 578
+* * 1026
+
+ob=
+fl=(17)
+fn=(27)
++5094 966 0
+cfl=(16)
+cfn=(25)
+calls=0 -36694 1074
+* * 31758
+cfl=(16)
+cfn=(25)
+calls=0 -38433 1023
+* * 6145
+cfl=(16)
+cfn=(25)
+calls=0 -36955 1064
+* * 4096
+cfl=(16)
+cfn=(25)
+calls=0 -38370 1027
+* * 2048
+cfl=(16)
+cfn=(25)
+calls=0 -38462 1022
+* * 512
++2301 1004 0
+cfl=(29)
+cfn=(46)
+calls=0 0x61cd6c 236
+* * 1024
++1150 1036 0
+cfl=(17)
+cfn=(103)
+calls=0 -7395 842
+* * 1026
+
+ob=
+fl=(17)
+fn=(101)
++9757 1351 0
+cfl=(7)
+cfn=(73)
+calls=0 0x6389a9 358
+* * 512
++2314 1465 0
+cfl=(12)
+cfn=(98)
+calls=0 -86464 183
+* * 512
+
+ob=
+fl=(17)
+fn=(104) net/http.(*response).finishRequest
++7875 1608 0
+cfl=(27)
+cfn=(88)
+calls=0 -782979 607
+* * 1024
+
+ob=
+fl=(17)
+fn=(50)
++7766 1858 0
+cfl=(17)
+cfn=(27)
+calls=0 -23397 966
+* * 44561
+cfl=(17)
+cfn=(27)
+calls=0 -20468 1017
+* * 5121
+cfl=(17)
+cfn=(27)
+calls=0 -20552 1024
+* * 4608
+cfl=(17)
+cfn=(27)
+calls=0 -19946 1036
+* * 1026
+cfl=(17)
+cfn=(27)
+calls=0 -21096 1004
+* * 1024
+cfl=(17)
+cfn=(27)
+calls=0 -20589 1022
+* * 512
++3645 1932 0
+cfl=(17)
+cfn=(105) net/http.serverHandler.ServeHTTP
+calls=0 +27491 2867
+* * 723056
++99 1937 0
+cfl=(17)
+cfn=(104)
+calls=0 -11411 1608
+* * 1024
+
+ob=
+fl=(17)
+fn=(106) net/http.HandlerFunc.ServeHTTP
++4227 2049 0
+cfl=(51) C:\Program Files\Go\src\net\http\pprof\pprof.go
+cfn=(107) net/http/pprof.Index
+calls=0 0xe36c7e 371
+* * 21737
+
+ob=
+fl=(17)
+fn=(108) net/http.(*ServeMux).ServeHTTP
++11750 2428 0
+cfl=(17)
+cfn=(106)
+calls=0 * 2049
+* * 21737
+
+ob=
+fl=(17)
+fn=(105)
++7770 2867 0
+cfl=(52) E:\projects\api-server\httpserver\http_server.go
+cfn=(109) api-server/httpserver.(*requestHandler).ServeHTTP
+calls=0 0xe8b557 53
+* * 701318
+cfl=(17)
+cfn=(108)
+calls=0 * 2428
+* * 21737
+
+ob=
+fl=(53) D:\projects\GlobalGo\pkg\mod\google.golang.org\protobuf@v1.27.1\internal\filedesc\build.go
+fn=(110) google.golang.org/protobuf/internal/filedesc.Builder.Build
++771595 113 0
+cfl=(37)
+cfn=(59)
+calls=0 +589425 118
+* * 512
+
+ob=
+fl=(10)
+fn=(32)
++143261 101 0
+cfl=(18)
+cfn=(111) encoding/json.checkValid
+calls=0 +249697 34
+* * 3072
++159 107 0
+cfl=(10)
+cfn=(112) encoding/json.(*decodeState).unmarshal
+calls=0 +2282 180
+* * 24069
+
+ob=
+fl=(10)
+fn=(112)
++2123 180 0
+cfl=(10)
+cfn=(113) encoding/json.(*decodeState).value
+calls=0 +6678 370
+* * 148026
+
+ob=
+fl=(10)
+fn=(113)
++4305 384 0
+cfl=(10)
+cfn=(23)
+calls=0 +28601 958
+* * 7680
+cfl=(10)
+cfn=(23)
+calls=0 +28641 958
+* * 2048
+cfl=(10)
+cfn=(23)
+calls=0 +39025 985
+* * 1536
+cfl=(10)
+cfn=(23)
+calls=0 +35112 971
+* * 512
++250 370 0
+cfl=(10)
+cfn=(17)
+calls=0 +12837 807
+* * 63024
+cfl=(10)
+cfn=(17)
+calls=0 +15960 765
+* * 59400
+cfl=(10)
+cfn=(17)
+calls=0 +10072 621
+* * 24069
+cfl=(10)
+cfn=(17)
+calls=0 +13179 783
+* * 12800
+cfl=(10)
+cfn=(17)
+calls=0 +13297 783
+* * 12288
+cfl=(10)
+cfn=(17)
+calls=0 +16068 689
+* * 512
++253 360 0
+cfl=(10)
+cfn=(41)
+calls=0 +7741 517
+* * 22018
+cfl=(10)
+cfn=(41)
+calls=0 +7799 518
+* * 1536
+
+ob=
+fl=(10)
+fn=(41)
++7488 517 0
+cfl=(10)
+cfn=(14)
+calls=0 +37152 1055
+* * 17922
+cfl=(10)
+cfn=(14)
+calls=0 +36889 1055
+* * 4096
+
+ob=
+fl=(10)
+fn=(17)
++2081 621 0
+cfl=(10)
+cfn=(13)
+calls=0 +30341 1104
+* * 12290
+cfl=(10)
+cfn=(13)
+calls=0 +30410 1104
+* * 9218
+cfl=(10)
+cfn=(13)
+calls=0 +29826 1073
+* * 2048
+cfl=(10)
+cfn=(13)
+calls=0 +30155 1089
+* * 512
++2765 807 0
+cfl=(15)
+cfn=(77)
+calls=0 0x667fba 1710
+* * 63024
++460 783 0
+cfl=(15)
+cfn=(78)
+calls=0 0x66baee 2465
+* * 12288
++2663 765 0
+cfl=(10)
+cfn=(113)
+calls=0 -13047 370
+* * 24069
+cfl=(10)
+cfn=(113)
+calls=0 -12794 360
+* * 23554
+cfl=(10)
+cfn=(113)
+calls=0 -13297 384
+* * 11776
++108 689 0
+cfl=(15)
+cfn=(22)
+calls=0 0x66b1d2 2401
+* * 512
+
+ob=
+fl=(10)
+fn=(23)
++18652 985 0
+cfl=(10)
+cfn=(26)
+calls=0 +3923 834
+* * 1536
+
+ob=
+fl=(10)
+fn=(114) encoding/json.(*decodeState).valueInterface
++2154 1040 0
+cfl=(10)
+cfn=(42)
+calls=0 +4736 1148
+* * 4096
+cfl=(10)
+cfn=(42)
+calls=0 +4323 1138
+* * 1536
+cfl=(10)
+cfn=(42)
+calls=0 +4431 1142
+* * 1536
++58 1037 0
+cfl=(10)
+cfn=(13)
+calls=0 +1527 1104
+* * 8706
+cfl=(10)
+cfn=(13)
+calls=0 +1458 1104
+* * 1024
+cfl=(10)
+cfn=(13)
+calls=0 +943 1073
+* * 512
+
+ob=
+fl=(10)
+fn=(14)
++460 1055 0
+cfl=(10)
+cfn=(114)
+calls=0 -58 1040
+* * 4096
+
+ob=
+fl=(10)
+fn=(13)
++754 1089 0
+cfl=(10)
+cfn=(37)
+calls=0 +3303 1183
+* * 512
++186 1104 0
+cfl=(10)
+cfn=(114)
+calls=0 -1214 1037
+* * 10242
+cfl=(10)
+cfn=(114)
+calls=0 -1272 1040
+* * 3072
+
+ob=
+fl=(10)
+fn=(42)
++711 1138 0
+cfl=(10)
+cfn=(37)
+calls=0 +2363 1183
+* * 1536
++413 1148 0
+cfl=(10)
+cfn=(26)
+calls=0 -19052 834
+* * 4096
+
+ob=
+fl=(18)
+fn=(111)
++60393 34 0
+cfl=(18)
+cfn=(115) encoding/json.stateBeginValue
+calls=0 +63689 220
+* * 3072
+
+ob=
+fl=(18)
+fn=(115)
++2926 223 0
+cfl=(18)
+cfn=(28)
+calls=0 +1607 177
+* * 1536
++370 220 0
+cfl=(18)
+cfn=(28)
+calls=0 -1319 177
+* * 3072
+
+ob=
+fl=(4)
+fn=(116) encoding/json.(*Decoder).Decode
++10035 63 0
+cfl=(4)
+cfn=(117) encoding/json.(*Decoder).readValue
+calls=0 +11950 140
+* * 51779
+cfl=(4)
+cfn=(117)
+calls=0 +11053 103
+* * 1536
++425 73 0
+cfl=(10)
+cfn=(112)
+calls=0 -117485 180
+* * 123957
+
+ob=
+fl=(4)
+fn=(117)
++593 103 0
+cfl=(18)
+cfn=(115)
+calls=0 -10830 223
+* * 1536
++897 140 0
+cfl=(4)
+cfn=(5)
+calls=0 +1674 159
+* * 51779
+
+ob=
+fl=(54) D:\projects\GlobalGo\pkg\mod\google.golang.org\protobuf@v1.27.1\internal\filetype\build.go
+fn=(118) google.golang.org/protobuf/internal/filetype.Builder.Build
++642611 139 0
+cfl=(53)
+cfn=(110)
+calls=0 -264943 113
+* * 512
+
+ob=
+fl=(43)
+fn=(68)
++65743 3589 0
+cfl=(43)
+cfn=(119) google.golang.org/protobuf/types/descriptorpb.file_google_protobuf_descriptor_proto_init
+calls=0 +66304 3952
+* * 512
+
+ob=
+fl=(43)
+fn=(119)
++561 3952 0
+cfl=(54)
+cfn=(118)
+calls=0 -65743 139
+* * 512
+
+ob=
+fl=(55) D:\projects\GlobalGo\pkg\mod\github.com\golang\protobuf@v1.5.2\proto\registry.go
+fn=(120) github.com/golang/protobuf/proto.RegisterFile
++22741 36 0
+cfl=(48)
+cfn=(92)
+calls=0 0x89c0cf 94
+* * 528
+
+ob=
+fl=(42)
+fn=(67)
++62360 677 0
+cfl=(55)
+cfn=(120)
+calls=0 * 36
+* * 528
+
+ob=
+fl=(31)
+fn=(121) github.com/google/uuid.New
+0xd13644 14 0
+cfl=(31)
+cfn=(122) github.com/google/uuid.NewRandom
+calls=0 0xd13744 30
+* * 1024
+
+ob=
+fl=(31)
+fn=(122)
++256 30 0
+cfl=(31)
+cfn=(51)
+calls=0 +471 35
+* * 1024
+
+ob=
+fl=(26)
+fn=(123) git.woa.com/cloud_nosql/qlog/captain.GetRequestIDFromCtx
++47896 59 0
+cfl=(26)
+cfn=(43)
+calls=0 +46540 15
+* * 1024
+
+ob=
+fl=(26)
+fn=(124) git.woa.com/cloud_nosql/qlog/captain.GetRegionFromCtx
++316 67 0
+cfl=(26)
+cfn=(43)
+calls=0 -1356 15
+* * 512
+
+ob=
+fl=(5)
+fn=(125) github.com/sirupsen/logrus.(*Entry).log
++10298 224 0
+cfl=(5)
+cfn=(15)
+calls=0 +2924 84
+* * 14852
+cfl=(5)
+cfn=(15)
+calls=0 +3020 86
+* * 3072
+cfl=(5)
+cfn=(15)
+calls=0 +2700 82
+* * 1536
++594 251 0
+cfl=(5)
+cfn=(126) github.com/sirupsen/logrus.(*Entry).write
+calls=0 +2048 279
+* * 81455
+cfl=(5)
+cfn=(126)
+calls=0 +2723 286
+* * 53303
+
+ob=
+fl=(5)
+fn=(126)
++1454 279 0
+cfl=(11)
+cfn=(16)
+calls=0 +53324 64
+* * 66092
+cfl=(11)
+cfn=(16)
+calls=0 +54753 45
+* * 12802
+cfl=(11)
+cfn=(16)
+calls=0 +53205 56
+* * 1536
+cfl=(11)
+cfn=(16)
+calls=0 +54154 58
+* * 512
+cfl=(11)
+cfn=(16)
+calls=0 +54194 58
+* * 512
++675 286 0
+cfl=(1)
+cfn=(4)
+calls=0 +87742 60
+* * 53303
+
+ob=
+fl=(5)
+fn=(127) github.com/sirupsen/logrus.(*Entry).Log
++547 293 0
+cfl=(3)
+cfn=(6)
+calls=0 0x6b0ac4 250
+* * 45609
+cfl=(3)
+cfn=(6)
+calls=0 0x6b0a57 248
+* * 512
++52 293 0
+cfl=(5)
+cfn=(125)
+calls=0 -2676 251
+* * 134758
+cfl=(5)
+cfn=(125)
+calls=0 -3270 224
+* * 19460
+
+ob=
+fl=(5)
+fn=(128) github.com/sirupsen/logrus.(*Entry).Info
++523 310 0
+cfl=(5)
+cfn=(127)
+calls=0 * 293
+* * 154218
+cfl=(5)
+cfn=(127)
+calls=0 -52 293
+* * 46122
+
+ob=
+fl=(22)
+fn=(129) github.com/sirupsen/logrus.(*Logger).WithFields
++9855 123 0
+cfl=(5)
+cfn=(7)
+calls=0 -6995 147
+* * 25094
+cfl=(5)
+cfn=(7)
+calls=0 -6729 150
+* * 11265
+cfl=(5)
+cfn=(7)
+calls=0 -8190 126
+* * 4608
++19 123 0
+cfl=(22)
+cfn=(35)
+calls=0 -650 104
+* * 2048
+
+ob=
+fl=(40)
+fn=(130) github.com/sirupsen/logrus.Level.String
++8447 17 0
+cfl=(40)
+cfn=(63)
+calls=0 +12659 66
+* * 512
+
+ob=
+fl=(11)
+fn=(16)
++31752 64 0
+cfl=(11)
+cfn=(131) git.woa.com/cloud_nosql/qlog/captain/logrus/formatter.(*TextFormatter).appendKeyValue
+calls=0 +33980 78
+* * 66092
++830 58 0
+cfl=(40)
+cfn=(130)
+calls=0 -31752 17
+* * 512
+
+ob=
+fl=(11)
+fn=(131)
++1398 78 0
+cfl=(11)
+cfn=(24)
+calls=0 +1782 86
+* * 55851
+cfl=(11)
+cfn=(24)
+calls=0 +1639 86
+* * 7168
+cfl=(11)
+cfn=(24)
+calls=0 +1967 84
+* * 2560
+cfl=(11)
+cfn=(24)
+calls=0 +1832 86
+* * 512
+
+ob=
+fl=(11)
+fn=(24)
++384 86 0
+cfl=(3)
+cfn=(3)
+calls=0 0x6b087c 220
+* * 55851
++50 86 0
+cfl=(36)
+cfn=(75)
+calls=0 0x6459c6 184
+* * 512
++135 84 0
+cfl=(3)
+cfn=(6)
+calls=0 0x6b0a87 249
+* * 1536
+cfl=(3)
+cfn=(6)
+calls=0 0x6b0ac4 250
+* * 1024
+
+ob=
+fl=(9)
+fn=(132) git.woa.com/cloud_nosql/qlog/captain/logrus.Debug
++34838 55 0
+cfl=(9)
+cfn=(133) git.woa.com/cloud_nosql/qlog/captain/logrus.(*qlogger).QDebug
+calls=0 +35879 182
+* * 17411
+cfl=(9)
+cfn=(133)
+calls=0 +35923 182
+* * 10753
+
+ob=
+fl=(9)
+fn=(134) git.woa.com/cloud_nosql/qlog/captain/logrus.Info
++160 65 0
+cfl=(9)
+cfn=(135) git.woa.com/cloud_nosql/qlog/captain/logrus.(*qlogger).QInfo
+calls=0 +1437 196
+* * 200341
+cfl=(9)
+cfn=(135)
+calls=0 +1297 194
+* * 38407
+cfl=(9)
+cfn=(135)
+calls=0 +1341 194
+* * 32262
+
+ob=
+fl=(9)
+fn=(133)
++881 182 0
+cfl=(9)
+cfn=(12)
+calls=0 +6432 323
+* * 6657
+cfl=(9)
+cfn=(12)
+calls=0 +6685 324
+* * 6145
+cfl=(9)
+cfn=(12)
+calls=0 +6206 314
+* * 1536
+cfl=(9)
+cfn=(12)
+calls=0 +6245 315
+* * 1024
+cfl=(9)
+cfn=(12)
+calls=0 +6577 324
+* * 512
+cfl=(9)
+cfn=(12)
+calls=0 +6612 324
+* * 512
+cfl=(9)
+cfn=(12)
+calls=0 +6946 326
+* * 512
+cfl=(9)
+cfn=(12)
+calls=0 +7260 328
+* * 512
++44 182 0
+cfl=(22)
+cfn=(129)
+calls=0 -78894 123
+* * 9729
+cfl=(22)
+cfn=(129)
+calls=0 -78875 123
+* * 1024
+
+ob=
+fl=(9)
+fn=(135)
++212 194 0
+cfl=(9)
+cfn=(12)
+calls=0 +5507 323
+* * 18435
+cfl=(9)
+cfn=(12)
+calls=0 +5760 324
+* * 13827
+cfl=(9)
+cfn=(12)
+calls=0 +5281 314
+* * 2560
+cfl=(9)
+cfn=(12)
+calls=0 +5687 324
+* * 1536
+cfl=(9)
+cfn=(12)
+calls=0 +6170 327
+* * 1024
+cfl=(9)
+cfn=(12)
+calls=0 +5415 319
+* * 512
+cfl=(9)
+cfn=(12)
+calls=0 +5652 324
+* * 512
++44 194 0
+cfl=(22)
+cfn=(129)
+calls=0 -79150 123
+* * 31238
+cfl=(22)
+cfn=(129)
+calls=0 -79131 123
+* * 1024
++96 196 0
+cfl=(5)
+cfn=(128)
+calls=0 -89049 310
+* * 200341
+
+ob=
+fl=(9)
+fn=(12)
++4968 315 0
+cfl=(26)
+cfn=(123)
+calls=0 -103604 59
+* * 1024
++95 319 0
+cfl=(26)
+cfn=(124)
+calls=0 -108256 67
+* * 512
++92 323 0
+cfl=(9)
+cfn=(11)
+calls=0 +1479 342
+* * 22020
+cfl=(9)
+cfn=(11)
+calls=0 +1325 340
+* * 3072
++145 324 0
+cfl=(31)
+cfn=(121)
+calls=0 -156911 14
+* * 1024
+
+ob=
+fl=(56) E:\projects\api-server\component\collector\common.go
+fn=(136) api-server/component/collector.ComputeApproximateRequestSize
++3427 11 0
+cfl=(19)
+cfn=(87)
+calls=0 0x7c2fd5 847
+* * 1024
+
+ob=
+fl=(57) D:\projects\GlobalGo\pkg\mod\gopkg.in\yaml.v2@v2.4.0\decode.go
+fn=(137) gopkg.in/yaml%2ev2.newParser
++12548 46 0
+cfl=(35)
+cfn=(57)
+calls=0 +11011 29
+* * 512
+
+ob=
+fl=(58) D:\projects\GlobalGo\pkg\mod\gopkg.in\yaml.v2@v2.4.0\yaml.go
+fn=(138) gopkg.in/yaml%2ev2.Unmarshal
++168165 81 0
+cfl=(58)
+cfn=(139) gopkg.in/yaml%2ev2.unmarshal
+calls=0 +168465 140
+* * 512
+
+ob=
+fl=(58)
+fn=(139)
++300 140 0
+cfl=(57)
+cfn=(137)
+calls=0 -168165 46
+* * 512
+
+ob=
+fl=(59) E:\projects\api-server\configure\configure.go
+fn=(140) api-server/configure.GetRootDir
++22920 76 0
+cfl=(46)
+cfn=(90)
+calls=0 0x884d4b 244
+* * 512
+
+ob=
+fl=(60) E:\projects\api-server\configure\sharkInterfaceConfig.go
+fn=(141) api-server/configure.loadSharkInterfaceConfig
++769 47 0
+cfl=(59)
+cfn=(140)
+calls=0 * 76
+* * 512
++992 60 0
+cfl=(58)
+cfn=(138)
+calls=0 -23989 81
+* * 512
+
+ob=
+fl=(60)
+fn=(142) api-server/configure.reloadSharkInterfaceConfig
++2575 115 0
+cfl=(60)
+cfn=(141)
+calls=0 * 60
+* * 512
+cfl=(60)
+cfn=(141)
+calls=0 -992 47
+* * 512
+
+ob=
+fl=(61) C:\Program Files\Go\src\internal\profile\profile.go
+fn=(143) internal/profile.Parse
++646460 134 0
+cfl=(48)
+cfn=(92)
+calls=0 0x89c0cf 94
+* * 514
+
+ob=
+fl=(61)
+fn=(144) internal/profile.(*Profile).Write
++4668 224 0
+cfl=(49)
+cfn=(95)
+calls=0 0x89f805 191
+* * 1447
+
+ob=
+fl=(62) C:\Program Files\Go\src\runtime\pprof\pprof.go
+fn=(145) runtime/pprof.(*Profile).WriteTo
++90023 331 0
+cfl=(62)
+cfn=(146) runtime/pprof.writeHeap
+calls=0 +100105 536
+* * 19776
+
+ob=
+fl=(62)
+fn=(146)
++10082 536 0
+cfl=(62)
+cfn=(147) runtime/pprof.writeHeapInternal
+calls=0 +10919 576
+* * 19776
+
+ob=
+fl=(62)
+fn=(147)
++837 576 0
+cfl=(63) C:\Program Files\Go\src\runtime\pprof\protomem.go
+cfn=(148) runtime/pprof.writeHeapProto
+calls=0 +52143 46
+* * 11384
+cfl=(63)
+cfn=(148)
+calls=0 +52885 59
+* * 7740
+cfl=(63)
+cfn=(148)
+calls=0 +52964 65
+* * 650
+
+ob=
+fl=(28)
+fn=(149) runtime/pprof.(*profileBuilder).flush
++20689 148 0
+cfl=(49)
+cfn=(95)
+calls=0 0x89f805 191
+* * 17588
+
+ob=
+fl=(28)
+fn=(150) runtime/pprof.(*profileBuilder).pbSample
++744 170 0
+cfl=(28)
+cfn=(149)
+calls=0 * 148
+* * 7740
+
+ob=
+fl=(28)
+fn=(151) runtime/pprof.(*profileBuilder).build
++9457 379 0
+cfl=(49)
+cfn=(95)
+calls=0 0x89f805 191
+* * 650
+
+ob=
+fl=(28)
+fn=(152) runtime/pprof.(*profileBuilder).appendLocsForStack
++617 398 0
+cfl=(28)
+cfn=(153) runtime/pprof.(*profileBuilder).emitLocation
+calls=0 +7702 570
+* * 4128
++495 414 0
+cfl=(28)
+cfn=(45)
+calls=0 -8511 216
+* * 1024
++633 430 0
+cfl=(28)
+cfn=(153)
+calls=0 +6590 570
+* * 5719
+cfl=(28)
+cfn=(153)
+calls=0 +6171 564
+* * 512
+
+ob=
+fl=(28)
+fn=(153)
++5538 564 0
+cfl=(28)
+cfn=(56)
+calls=0 -12206 139
+* * 512
++419 570 0
+cfl=(28)
+cfn=(149)
+calls=0 -17484 148
+* * 9847
+
+ob=
+fl=(63)
+fn=(148)
++12714 46 0
+cfl=(28)
+cfn=(152)
+calls=0 -5957 430
+* * 6232
+cfl=(28)
+cfn=(152)
+calls=0 -7085 398
+* * 4128
+cfl=(28)
+cfn=(152)
+calls=0 -6590 414
+* * 1024
++742 59 0
+cfl=(28)
+cfn=(150)
+calls=0 -29873 170
+* * 7740
++79 65 0
+cfl=(28)
+cfn=(151)
+calls=0 -21158 379
+* * 650
+
+ob=
+fl=(51)
+fn=(154) net/http/pprof.handler.ServeHTTP
++15307 239 0
+cfl=(51)
+cfn=(155) net/http/pprof.handler.serveDeltaProfile
+calls=0 +17283 276
+* * 2097
+cfl=(51)
+cfn=(155)
+calls=0 +17867 297
+* * 1961
+cfl=(51)
+cfn=(155)
+calls=0 +19028 318
+* * 1447
++630 253 0
+cfl=(62)
+cfn=(145)
+calls=0 -78353 331
+* * 16230
+
+ob=
+fl=(51)
+fn=(155)
++1346 276 0
+cfl=(51)
+cfn=(156) net/http/pprof.collectProfile
+calls=0 +3875 323
+* * 2097
++584 297 0
+cfl=(51)
+cfn=(156)
+calls=0 +2529 323
+* * 1447
+cfl=(51)
+cfn=(156)
+calls=0 +2738 327
+* * 514
++1161 318 0
+cfl=(61)
+cfn=(144)
+calls=0 -170936 224
+* * 1447
+
+ob=
+fl=(51)
+fn=(156)
++784 323 0
+cfl=(62)
+cfn=(145)
+calls=0 -82074 331
+* * 3545
++209 327 0
+cfl=(61)
+cfn=(143)
+calls=0 -177549 134
+* * 514
+
+ob=
+fl=(51)
+fn=(107)
++560 371 0
+cfl=(51)
+cfn=(154)
+calls=0 -4084 253
+* * 16230
+cfl=(51)
+cfn=(154)
+calls=0 -4714 239
+* * 5506
+
+ob=
+fl=(32)
+fn=(157) git.woa.com/cloud_nosql/cloudbase/tardigrade-common/util/maputil.lowerFirstString
++201230 25 0
+cfl=(45)
+cfn=(85)
+calls=0 0x6c3869 596
+* * 1024
+
+ob=
+fl=(32)
+fn=(158) git.woa.com/cloud_nosql/cloudbase/tardigrade-common/util/maputil.parseField
++11546 267 0
+cfl=(32)
+cfn=(64)
+calls=0 +7352 139
+* * 512
+
+ob=
+fl=(32)
+fn=(159) git.woa.com/cloud_nosql/cloudbase/tardigrade-common/util/maputil.mapToValue
++3957 285 0
+cfl=(23)
+cfn=(76)
+calls=0 0x6535c4 923
+* * 2048
++506 314 0
+cfl=(32)
+cfn=(158)
+calls=0 -3957 267
+* * 512
++858 305 0
+cfl=(32)
+cfn=(159)
+calls=0 -506 285
+* * 1024
++506 292 0
+cfl=(32)
+cfn=(157)
+calls=0 -16867 25
+* * 1024
++219 294 0
+cfl=(32)
+cfn=(52)
+calls=0 -16939 29
+* * 1024
+
+ob=
+fl=(32)
+fn=(160) git.woa.com/cloud_nosql/cloudbase/tardigrade-common/util/maputil.DeepScanMapIntoStruct
++1064 338 0
+cfl=(32)
+cfn=(159)
+calls=0 -2089 285
+* * 1024
+cfl=(32)
+cfn=(159)
+calls=0 -725 305
+* * 1024
+cfl=(32)
+cfn=(159)
+calls=0 -219 292
+* * 1024
+cfl=(32)
+cfn=(159)
+calls=0 * 294
+* * 1024
+cfl=(32)
+cfn=(159)
+calls=0 -1583 314
+* * 512
+
+ob=
+fl=(6)
+fn=(161) api-server/httpserver.parseResponseErrorCodeV3
++107068 60 0
+cfl=(10)
+cfn=(32)
+calls=0 0xa16011 107
+* * 24069
+cfl=(10)
+cfn=(32)
+calls=0 0xa15ee4 100
+* * 3584
+cfl=(10)
+cfn=(32)
+calls=0 0xa15f72 101
+* * 3072
+
+ob=
+fl=(6)
+fn=(8)
++3220 118 0
+cfl=(3)
+cfn=(6)
+calls=0 0x6b0ac4 250
+* * 1536
++160 122 0
+cfl=(50)
+cfn=(96)
+calls=0 0x89ffae 27
+* * 33307
++1185 166 0
+cfl=(39)
+cfn=(61)
+calls=0 0x6baa64 160
+* * 512
++39 166 0
+cfl=(4)
+cfn=(18)
+calls=0 0xa33164 32
+* * 10755
++151 169 0
+cfl=(4)
+cfn=(116)
+calls=0 0xa334f2 73
+* * 123957
+cfl=(4)
+cfn=(116)
+calls=0 0xa33349 63
+* * 53315
++73 172 0
+cfl=(32)
+cfn=(160)
+calls=0 -111823 338
+* * 4608
++9921 287 0
+cfl=(9)
+cfn=(134)
+calls=0 0xd38213 65
+* * 130635
++31 288 0
+cfl=(12)
+cfn=(19)
+calls=0 0x915b73 104
+* * 10243
+cfl=(12)
+cfn=(19)
+calls=0 0x9159ac 100
+* * 3584
+cfl=(12)
+cfn=(19)
+calls=0 0x915a11 101
+* * 512
++403 293 0
+cfl=(6)
+cfn=(161)
+calls=0 -14780 60
+* * 30725
++1439 308 0
+cfl=(9)
+cfn=(134)
+calls=0 0xd38213 65
+* * 140375
++9 310 0
+cfl=(6)
+cfn=(162) api-server/httpserver.(*HandlerInterfaceV3).ProcessRequest.func1
+calls=0 +12718 160
+* * 46603
+cfl=(6)
+cfn=(162)
+calls=0 +13280 163
+* * 28164
+cfl=(6)
+cfn=(162)
+calls=0 +12281 156
+* * 1024
+
+ob=
+fl=(52)
+fn=(109)
++2744 53 0
+cfl=(64) E:\projects\api-server\httpserver\router_filter.go
+cfn=(163) api-server/httpserver.(*routerFilter).DoFilter
+calls=0 +7365 69
+* * 701318
+
+ob=
+fl=(64)
+fn=(163)
++4621 69 0
+cfl=(6)
+cfn=(8)
+calls=0 -14620 169
+* * 177272
+cfl=(6)
+cfn=(8)
+calls=0 -2753 308
+* * 140375
+cfl=(6)
+cfn=(8)
+calls=0 -4626 287
+* * 130635
+cfl=(6)
+cfn=(8)
+calls=0 -2744 310
+* * 75792
+cfl=(6)
+cfn=(8)
+calls=0 -15995 122
+* * 33307
+cfl=(6)
+cfn=(8)
+calls=0 -4192 293
+* * 30725
+cfl=(6)
+cfn=(8)
+calls=0 -4795 287
+* * 24081
+cfl=(6)
+cfn=(8)
+calls=0 -3108 308
+* * 23056
+cfl=(6)
+cfn=(8)
+calls=0 -14850 166
+* * 18445
+cfl=(6)
+cfn=(8)
+calls=0 -4595 288
+* * 14339
+cfl=(6)
+cfn=(8)
+calls=0 -14771 166
+* * 10755
+cfl=(6)
+cfn=(8)
+calls=0 -15230 129
+* * 7169
+cfl=(6)
+cfn=(8)
+calls=0 -2919 308
+* * 5120
+cfl=(6)
+cfn=(8)
+calls=0 -14547 172
+* * 4608
+cfl=(6)
+cfn=(8)
+calls=0 -16155 118
+* * 1536
+cfl=(6)
+cfn=(8)
+calls=0 -14705 168
+* * 1024
+cfl=(6)
+cfn=(8)
+calls=0 -4755 287
+* * 1024
+cfl=(6)
+cfn=(8)
+calls=0 -14810 166
+* * 512
+cfl=(6)
+cfn=(8)
+calls=0 -16959 118
+* * 512
+cfl=(6)
+cfn=(8)
+calls=0 -16358 119
+* * 512
+cfl=(6)
+cfn=(8)
+calls=0 -4946 287
+* * 512
+
+ob=
+fl=(6)
+fn=(162)
++4907 156 0
+cfl=(56)
+cfn=(136)
+calls=0 0xd3a927 11
+* * 1024
++437 160 0
+cfl=(13)
+cfn=(20)
+calls=0 0xd3be64 127
+* * 10242
+cfl=(13)
+cfn=(20)
+calls=0 0xd3c5ec 151
+* * 8706
+cfl=(13)
+cfn=(20)
+calls=0 0xd3bfdc 133
+* * 7169
+cfl=(13)
+cfn=(20)
+calls=0 0xd3c2ea 143
+* * 6657
+cfl=(13)
+cfn=(20)
+calls=0 0xd3c46c 147
+* * 6657
+cfl=(13)
+cfn=(20)
+calls=0 0xd3c292 143
+* * 2560
+cfl=(13)
+cfn=(20)
+calls=0 0xd3be0a 127
+* * 2048
+cfl=(13)
+cfn=(20)
+calls=0 0xd3bf84 133
+* * 1536
+cfl=(13)
+cfn=(20)
+calls=0 0xd3c414 147
+* * 512
+cfl=(13)
+cfn=(20)
+calls=0 0xd3c594 151
+* * 512
++562 163 0
+cfl=(9)
+cfn=(132)
+calls=0 0xd38173 55
+* * 28164
