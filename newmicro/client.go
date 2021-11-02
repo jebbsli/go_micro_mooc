@@ -12,7 +12,6 @@ func main() {
 	service := micro.NewService(
 		micro.Name("cap.imooc.client"),
 		)
-
 	// 初始化
 	service.Init()
 
